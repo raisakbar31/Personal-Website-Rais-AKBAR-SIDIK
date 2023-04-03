@@ -13,14 +13,54 @@ nav{
     display: inline-block;
     padding-left: 10px;
 }
-.container-nav li a{
+.container-nav li a {
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
 }
-.container-nav li a:hover{
+.container-nav li a:hover {
     color: #F87600;
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    z-index: 2;
+
 }
+.container-header{
+    display: flex;
+    margin-top: 20px;
+    /* align-items: center; */
+    padding-right: 100px;
+    justify-content: center;
+}
+.form-me {
+    padding-top:10px;
+}
+.form-me p{
+    padding-bottom: 20px;
+    padding-top: 100px;
+    font-size: xx-large;
+    color:#F87600;
+}
+.form-me button{
+    border: none;
+    border-radius: 10px;
+    padding: 12px 24px;
+    color: white;
+    background-color: #F87600;
+    margin-top: 10px;
+}
+.form-me button:hover{
+    border: none;
+    border-radius: 10px;
+    padding: 12px 24px;
+    color: white;
+    background-color:#0099ff;
+}
+.image-me{
+    margin-right:-200px;
+    margin-top: -30px;
+}
+.hiasan{
+    margin-top: -400px;
+    margin-left: -400px;
+    width: 900px;
+}
+
