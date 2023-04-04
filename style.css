@@ -61,6 +61,7 @@ button{
     color: white;
     background-color: #F87600;
     margin-top: 10px;
+    cursor:context-menu;
 }
 button:hover {
     border: none;
@@ -97,6 +98,19 @@ button:hover {
 }
 .aboutisi{
     font-size:large;
+}
+.translate{
+    position: fixed;
+    bottom:60px;
+    left: 20px;
+}
+.translate a{
+    text-decoration: none;
+    color: red;
+    font-weight: bolder;
+}
+.aktif {
+    color:green;
 }
 footer{
     margin-top: 200px;
