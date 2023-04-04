@@ -4,9 +4,6 @@
     font-family: 'Montserrat', sans-serif;
     padding: 0;
     box-sizing: border-box;
-    bottom: 0;
-    left: 0;
-    right: 0;
     
 }
 .font1{
@@ -22,7 +19,15 @@ nav{
     /* background-color:red ; */
     text-align: center;
     padding: 12px;
-    margin-top: -270px;
+    margin-top: -290px;
+}
+.nav2{
+    margin-top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100vw;
 }
 .container-nav li{
     display: inline-block;
@@ -54,16 +59,16 @@ nav{
     font-size: xx-large;
     color:#F87600;
 }
-button{
+.button{
     border: none;
     border-radius: 10px;
     padding: 12px 24px;
     color: white;
     background-color: #F87600;
     margin-top: 10px;
-    cursor:context-menu;
+    text-decoration: none;
 }
-button:hover {
+.button:hover {
     border: none;
     border-radius: 10px;
     padding: 12px 24px;
@@ -78,16 +83,16 @@ button:hover {
     margin-top: -400px;
     margin-left: -400px;
     width: 900px;
+display: none;
 }
 .container-card{
-    margin-top: -590px;
+    margin-top: -150px;
     
 }
 .card1{
     /* background-color:#0099ff; */
     padding: 40px;
-    margin-right: 100px;
-    margin-left: 300px;
+    margin: 50px;
     box-shadow: 0px 7px 19px 25px rgba(150, 150, 150, 0.24);
     background-color: white;
 }
