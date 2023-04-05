@@ -151,6 +151,40 @@ display: none;
 .img-skil{
     width: 150px;
 }
+/* ===============PROJEK.HTML=========================== */
+.container-projek{
+    margin-top: 100px;
+    margin-bottom: -150px;
+}
+.container-projek1{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.card-projek{
+    padding: 20px;
+    margin: 20px;
+    background-color: black;
+    height: 200px;
+    width: 600px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+.card-projek:hover{
+    padding: 20px;
+    margin: 20px;
+    background-color: #00000045;
+    height: 200px;
+    width: 600px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+.img-projek{
+    height: 100px;
+    margin-top: 15px;
+}
 
 footer{
     margin-top: 200px;
