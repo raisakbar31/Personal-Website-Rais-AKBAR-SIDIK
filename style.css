@@ -28,10 +28,23 @@ nav{
     right: 0;
     height: auto;
     width: 100vw;
+
+}
+.container-nav{
+    background-color: #000000;
+    height: 70px;
+position: fixed;
+margin-top: -15px;
+left: 0;
+right: 0;
+z-index: 9999;
+box-shadow: 0px 36px 40px -10px rgba(0, 0, 0, 0.54);
+
 }
 .container-nav li{
     display: inline-block;
     padding-left: 10px;
+    padding-top: 30px;
 }
 .container-nav li a {
     color: rgb(255, 255, 255);
@@ -57,6 +70,7 @@ nav{
     padding-bottom: 20px;
     padding-top: 100px;
     font-size: xx-large;
+    font-weight: bolder;
     color:#F87600;
 }
 .button{
@@ -77,16 +91,10 @@ nav{
 }
 .image-me{
     margin-right:-200px;
-    margin-top: -37px;
-}
-.hiasan{
-    margin-top: -400px;
-    margin-left: -400px;
-    width: 900px;
-display: none;
 }
 .container-card{
     margin-top: -150px;
+    z-index: 2;
     
 }
 .card1{
@@ -186,6 +194,25 @@ display: none;
     margin-top: 15px;
 }
 
+/* experience */
+.container-experience{
+    margin-top: 100px;
+margin-left: 0;
+padding-left: 100px;
+}
+.judul-experience{
+    color: #F87600;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    font-size: x-large;
+}
+.isi-experience{
+    margin-left: 90px;
+    font-size: xx-large;
+}
+.isi-experience p {
+    padding: 5px;
+}
 footer{
     margin-top: 200px;
     bottom: 0;
