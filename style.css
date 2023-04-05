@@ -72,8 +72,8 @@ nav{
     border: none;
     border-radius: 10px;
     padding: 12px 24px;
-    color: white;
-    background-color:#0099ff;
+    color: #F87600;
+    background-color:black;
 }
 .image-me{
     margin-right:-200px;
@@ -92,9 +92,13 @@ display: none;
 .card1{
     /* background-color:#0099ff; */
     padding: 40px;
-    margin: 50px;
+    margin-top: 80px;
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-bottom: -100px;
     box-shadow: 0px 7px 19px 25px rgba(150, 150, 150, 0.24);
     background-color: white;
+    border-radius: 12px;
 }
 .aboutme {
     margin-bottom: 20px;
@@ -177,7 +181,7 @@ footer{
 
 }
 .socials a:hover i{
-    color: aqua;
+    color: #F87600;
 }
 
 .footer-bottom{
@@ -194,7 +198,7 @@ float: left;
     text-transform: capitalize;
 }
 .footer-bottom p a{
-  color:#44bae8;
+  color:#F87600;
   font-size: 16px;
   text-decoration: none;
 }
@@ -219,7 +223,7 @@ display: block;
   text-decoration: none;
 }
 .footer-menu ul li a:hover{
-  color: #27bcda;
+  color: #F87600;
 }
 
 @media (max-width:500px) {
