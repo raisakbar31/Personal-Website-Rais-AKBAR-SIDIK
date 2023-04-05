@@ -96,9 +96,12 @@ display: none;
     margin-left: 230px;
     margin-right: 230px;
     margin-bottom: -100px;
-    box-shadow: 0px 7px 19px 25px rgba(150, 150, 150, 0.24);
     background-color: white;
     border-radius: 12px;
+}
+.card1:hover{
+    box-shadow: 0px 7px 19px 25px rgba(150, 150, 150, 0.24);
+
 }
 .aboutme {
     margin-bottom: 20px;
@@ -121,6 +124,34 @@ display: none;
 .aktif {
     color:green;
 }
+.container-skil{
+    margin-top: 180px;
+}
+.judul-skil{
+    display: flex;
+    justify-content: center;
+}
+.isi-skil{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: -100px;
+}
+.skil{
+    background-color: #F87600;
+    border-radius: 100px;
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+}
+.skil:hover{
+    background-color: #F87600;
+    border-radius: 0px;
+}
+.img-skil{
+    width: 150px;
+}
+
 footer{
     margin-top: 200px;
     bottom: 0;
